@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Ki Website</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #container {
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            transition: box-shadow 0.3s;
+        }
+
+        #container:hover {
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+        }
+
+        #productImage {
+            width: 300px;
+            border: 5px solid white;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        #productImage:hover {
+            transform: scale(1.1);
+        }
+
+        #productPrice {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        #productLink {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 18px;
+            border: 2px solid white;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        #productLink:hover {
+            background-color: white;
+            color: black;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #websiteHeading {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            font-size: 24px;
+            border: 2px solid white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        #websiteHeading:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href="https://amzn.to/3vQj7Fx" target="_blank">
+            <img id="productImage" src="https://images-na.ssl-images-amazon.com/images/I/816m0eTtz2L._SX679_.jpg" alt="Milton Thermosteel Bottle">
+        </a>
+        <div id="productPrice">Only ₹1099</div>
+        <a id="productLink" href="https://amzn.to/3vQj7Fx" target="_blank">View on Amazon</a>
+
+        <h1>
+            <a id="websiteHeading" href="#">Ansh Ki Website</a>
+        </h1>
+    </div>
+</body>
+</html>
